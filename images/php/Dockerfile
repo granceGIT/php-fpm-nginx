@@ -12,4 +12,4 @@ ADD php.ini /usr/local/etc/php/conf.d/40-custom.ini
 
 WORKDIR /var/www
 
-ENTRYPOINT ["php-fpm"]
+CMD ["php-fpm"]
